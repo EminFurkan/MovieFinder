@@ -1,12 +1,12 @@
 {
   "name": "movie-finder",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple movie finder app",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot"
   },
-  "author": "",
+  "author": "EminFurkan",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.9.0",
@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-icons": "^3.9.0"
   }
 }
