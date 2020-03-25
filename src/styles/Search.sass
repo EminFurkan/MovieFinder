@@ -1,0 +1,40 @@
+@import 'config'
+
+.search
+  width: 100%
+  height: 50%
+  display: flex
+  justify-content: center
+  align-items: center
+  color: #333
+  transition: .4s ease-out
+  &.swipe-up
+    height: 10%
+
+  .searchbar
+    width: 60%
+    height: 2rem
+    outline: none
+    font-size: 1rem
+    padding-left: 2rem
+    border: none
+    border-radius: 5px
+    background: none
+    background-color: $main-bg
+    transition: .4s ease-out
+    position: relative
+
+  .search-icon
+    widht: 2%
+    height: auto
+    display: flex
+    align-items: center
+    background: $main-bg
+    padding: .5rem
+    position: absolute
+    left: 26%
+    border-top-left-radius: 5px
+    border-bottom-left-radius: 5px
+
+  .searchbar:focus
+    box-shadow: $icon-shadow-primary

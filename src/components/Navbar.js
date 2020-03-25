@@ -4,6 +4,10 @@ import { MdLocalMovies } from "react-icons/md";
 import '../styles/Navbar.sass';
 
 export const Navbar = () => {
+  const themeHandler = () => {
+    document.body.classList.toggle('dark');
+  }
+
   return (
     <nav className="nav">
       <div className="container">
@@ -12,7 +16,7 @@ export const Navbar = () => {
           <h2>MovieFinder</h2>
         </div>
         <ul>
-          <li><GiPopcorn /></li>
+          <li onClick={themeHandler} ><GiPopcorn /></li>
         </ul>
       </div>
     </nav>
