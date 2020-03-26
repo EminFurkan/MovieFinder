@@ -11,7 +11,7 @@ export const Navbar = () => {
   return (
     <nav className="nav">
       <div className="container">
-        <div className="logo">
+        <div className="logo" onClick={() => window.location.reload()}>
           <MdLocalMovies />
           <h2>MovieFinder</h2>
         </div>
