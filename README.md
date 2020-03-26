@@ -1,4 +1,4 @@
-Simple movie search app using http://www.omdbapi.com/ to query api calls, built using React & Sass
+Simple movie search app using http://www.omdbapi.com/ to query api calls, built with React & Sass
  
  ## Usage
 
