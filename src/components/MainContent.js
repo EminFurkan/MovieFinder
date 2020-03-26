@@ -24,7 +24,7 @@ export const MainContent = () => {
           const results = data.Search;
           const updatedState = {...search, results: results, state: true }
           setSearchState(updatedState);
-        });   
+        })
     }
   }
 
