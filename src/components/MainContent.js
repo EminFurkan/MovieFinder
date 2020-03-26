@@ -40,7 +40,6 @@ export const MainContent = () => {
         const result = data
         const updatedState = {...search, selected: result, details:true}
         setSearchState(updatedState);
-        console.log(id)
       })
   }
 
@@ -54,7 +53,6 @@ export const MainContent = () => {
 
   if (search.details){
     displayResult = (<MovieDetails selected={search.selected} closeDetails={closeDetails} />);
-    console.log(displayResult)
   } else {
     displayResult = (<MovieList results={ search.results } openDetails={openDetails} /> );
   }
