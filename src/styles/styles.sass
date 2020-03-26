@@ -22,6 +22,8 @@ body
     color: $text-normal
     .movie-card
       background: $nav-bg
+    .search
+      border: none
 
   .wrapper
     width: 100%
@@ -29,3 +31,31 @@ body
     display: flex
     flex-direction: column
     align-items: center
+
+
+  @media all and (max-width: 768px)
+    .content-wrapper
+      width: 100%
+      .searchbar
+        width: 90%
+      .search-icon
+        left: 5%
+      .banner
+        width: 90%
+      .movie-list
+        grid-template-columns: repeat(2, 1fr);
+      .details
+        padding: 0
+      .details-wrapper
+        flex-wrap: wrap
+        // flex-direction: column
+        // align-items: center
+      .poster
+        height: 70%
+      .context
+        height: 50%
+        width: 100%
+        padding: 3rem 0
+        p
+          width: 5rem
+
